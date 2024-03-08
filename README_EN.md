@@ -16,14 +16,14 @@
 - Create secure HTTP connections (HTTPS) by understand TLS/SSL and creating signed certificates to allow for HTTPS connections.
 
 # Methodology Per Project
-(1) Use the browser developer tools to see network information, including sent HTTP request and received HTTP responses headers and bodies.
-(2) Use Amazon Web Services (AWS)'s EC2 service to create an Ubuntu server instance, which offers high usability, reliability and all the infrastructure needed for cloud virtual machines.
-(3) Install NGINX and configure its .conf files to deploy a web server that listens to incoming HTTP requests and response with resource files accordingly.
-(4) Configure a server's firewall settings using uncomplicated firewall (ufw) to open up ports 80 (HTTP), 443 (HTTPS) and 22 (OpenSSH).
-(5) Connect to EC2 instances using SSH in order to run shell commands on the server from a local computer.
-(6) Sync local code with the production server by using github repository, doing push origin commands on local and pull commands on the production server across SSH.
-(7) Large static files that are not code are ignored by git version control and instead SFTP connections are used to manage these files across local and production environments.
-(8) Lease and register and domain using a domain registar.
-(9) Setup DNS settings offered by the domain registar to setup A records so the domain points to the EC2 IP address.
-(10) Setup subdomains by registering subdomain A records, and on the server configuring NGINX .conf files and symlinks to handle the resources for paths accross multiple subdomains accordingly.
-(11) Use LetsEncrypt and certbot to create certificates, and then configure nginx .conf files to only allow for secure connections (HTTPS) which provide security measures like HTTP encryption, authenticity and integrity.
+- Use the browser developer tools to see network information, including sent HTTP request and received HTTP responses headers and bodies.
+-  Use Amazon Web Services (AWS)'s EC2 service to create an Ubuntu server instance, which offers high usability, reliability and all the infrastructure needed for cloud virtual machines.
+- Install NGINX and configure its .conf files to deploy a web server that listens to incoming HTTP requests and response with resource files accordingly.
+- Configure a server's firewall settings using uncomplicated firewall (ufw) to open up ports 80 (HTTP), 443 (HTTPS) and 22 (OpenSSH).
+- Connect to EC2 instances using SSH in order to run shell commands on the server from a local computer.
+- Sync local code with the production server by using github repository, doing push origin commands on local and pull commands on the production server across SSH.
+- Large static files that are not code are ignored by git version control and instead SFTP connections are used to manage these files across local and production environments.
+- Lease and register and domain using a domain registar.
+- Setup DNS settings offered by the domain registar to setup A records so the domain points to the EC2 IP address.
+- Setup subdomains by registering subdomain A records, and on the server configuring NGINX .conf files and symlinks to handle the resources for paths accross multiple subdomains accordingly.
+- Use LetsEncrypt and certbot to create certificates, and then configure nginx .conf files to only allow for secure connections (HTTPS) which provide security measures like HTTP encryption, authenticity and integrity.

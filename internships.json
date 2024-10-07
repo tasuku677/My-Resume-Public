@@ -1,0 +1,62 @@
+{
+    "internships": {
+        "ja": [
+            {
+                "company": "ソニーセミコンダクタマニュファクチャリング株式会社",
+                "duration": "1週間",
+                "description": "本インターンは個人で取り組む課題でした。半導体の加工設備（ユーティリティ）のセキュリティを考察しました。ユーティリティにはユーティリティを制御するローカルコントローラが有線でつながっており、さらにそのコントローラはルータを通じて施設外部のクラウドシステムと通じて異常検知のサービスを受けています。私はインターンでこれらのアーキテクチャの中で、どの部分に攻撃者がどのように攻撃してくるのかという考察とその対策の検討をしました。攻撃はサイバー攻撃とは限らず、直接ユーティリティを不正操作するというものも含まれます。このインターンの中では私はセキュリティに大事な、何を最優先で守らなければならないのかの目線を身につけることができたと思います。また、実際の設備が対象になっており、仕様書から必要な情報を読み取る訓練にもなったと思います。"
+            },
+            {
+                "company": "楽天グループ株式会社",
+                "duration": "1週間",
+                "description": "フードロスを削減するために、食材を余らせた人とその食材をほしい人をマッチするアプリを、5人チームで作りました。食材を余らせたユーザーがタイムラインにその食材を投稿し、他のユーザーはその投稿をタップしたあと受け取り確認をすることで、マッチング成立です。私はバックエンドを担当し、投稿された食材をデータベースに追加、削除する処理と、ログイン機能の処理のコードを書きました。言語はPythonでフレームワークとしてFlaskを使用し、データベースの操作にはSQLAlchemyを選択しました。また、過程でjsonファイルの扱い方も学びました。"
+            },
+            {
+                "company": "株式会社エクサウィザーズ",
+                "duration": "2週間",
+                "description": "Kotlinを使ったアプリケーションの開発を個人で行いました。フロントエンドを担当し、ツールキットのJetpack Composeを使用した「定義型」のGUI開発を経験しました。また、チームメンバーのほとんどが外国籍のグローバルな環境で開発経験を積むことができました。"
+            },
+            {
+                "company": "mappin株式会社",
+                "duration": "2024/4/1-2024/6/14",
+                "description": "クリニック向け在庫管理アプリのフロントエンド開発に取り組んでいます。開発にはTypeScriptとReactを用いました。"
+            },
+            {
+                "company": "ALPS ELECTRIC CZECH, s.r.o.",
+                "duration": "2024/6/24-2024/9/20",
+                "description": "プロジェクト1:<br>Product errror report application<br>Vueフレームワークを使用した，工場プロダクトの不良個所を登録，またその結果の表示を行うwebアプリケーションの開発．このアプリケーションはGrafanaプラグインとして，使用可能で，不良個所をヒートマップにして表示することができます．使用したフレームワークはkonva.js, heatmap.js.<br><br>プロジェクト2:<br>Application that prooves conditions of shipping pallets<br>出荷製品の良好状態を写真で記録し，保存するアプリケーション．このアプリケーションは，ウェブブラウザ内のデータベースであるindexedDBを用いることで，工場での安定しないネットワーク状況に対応し，オフラインでも機能する．フロントエンドには，vueフレームワーク，バックエンドにはfastapi,そしてデータベースにはMIcrosoft SQLを使用．"
+            }
+        ],
+        "en": [
+            {
+                "company": "Rakuten",
+                "duration": "September 19, 2023 – September 23, 2023",
+                "description": [
+                    "Developed a prototype of the application aimed at solving food waste using Python, Flask framework, and SQLAlchemy.",
+                    "Worked on backend and created a database, implemented operations, and integrated login functionality.",
+                    "Gained practical experience in team development methodologies through periodical brainstorming."
+                ]
+            },
+            {
+                "company": "Exawizards",
+                "duration": "February 14, 2024 – February 29, 2024",
+                "description": [
+                    "Developed a product where AI conducts role-playing for business negotiations.",
+                    "Worked on frontend and created a login screen using Kotlin and Jetpack Compose."
+                ]
+            },
+            {
+                "company": "Alps Electronic Czech s.r.o",
+                "duration": "June 24, 2024 – September 20, 2024",
+                "description": [
+                    "Project1: Product Error Report Application <br> Developed a web application using the Vue framework for registering and displaying defects in factory products. This application can be used as a Grafana plugin and displays defects as a heatmap. The frameworks used were Konva.js and Heatmap.js.",
+                    "Project2: Application for Verifying Shipping Pallet Conditions. Developed an application that records and stores photos to verify the condition of shipped products. By utilizing IndexedDB, the application functions offline, handling unstable network conditions in factories. The frontend was built with Vue, the backend with FastAPI, and the database with Microsoft SQL.",
+                    {
+                        "Project1": "https://github.com/tasuku677/alps-intern-heatmap",
+                        "Project2": "https://github.com/tasuku677/alps-intern-heatmap"
+                    }
+                ]
+            }
+        ]
+    }
+}

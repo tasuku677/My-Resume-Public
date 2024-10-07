@@ -1,0 +1,78 @@
+{
+    "programming_skills": {
+        "ja": [
+            {
+                "language": "Python",
+                "experience": "2年",
+                "description": "大学や研究、個人制作で使用。基礎的な文法に加え、動的言語の特性を理解している。また、ソケットAPIを使用することができる。現在も学習サイト Recursion でコンピュータサイエンスを学習中。"
+            },
+            {
+                "language": "C",
+                "experience": "2年",
+                "description": "大学の授業で使用。基本的な文法に加え、ポインタやメモリ操作について理解している。"
+            },
+            {
+                "language": "Java",
+                "experience": "2ヶ月",
+                "description": "OOPの学習に使用。基礎的な文法に加え、静的言語の特性が分かる。また、OOPにおける関係、ポリモーフィズム、ジェネリクスなどの概念を理解している。"
+            },
+            {
+                "language": "Javascript",
+                "experience": "4ヶ月",
+                "description": "個人制作で使用。APIを使用することができ、jsonデータの扱い方が分かる。"
+            },
+            {
+                "language": "HTML/CSS",
+                "experience": "4ヶ月",
+                "description": "個人制作で使用。Bootstrapを使用して、簡単なページを作成できる。"
+            },
+            {
+                "language": "MySQL",
+                "experience": "1ヶ月",
+                "description": "データベースの学習に使用。DDL、DDMの基本的な操作を理解し、さらに集計関数やGROUP BY句、HAVING句、結合などを理解している。"
+            },
+            {
+                "language": "TypeScript",
+                "experience": "1ヶ月",
+                "description": "インターン先のフロントエンド開発において使用。フレームワークにはReactを使用。"
+            }
+        ],
+        "en": [
+            {
+                "language": "Python",
+                "experience": "2 years",
+                "description": "Used in university, research, and personal projects. In addition to understanding basic syntax, I am familiar with the dynamic characteristics of the language. I can also work with socket APIs. Currently studying computer science on the learning platform Recursion."
+            },
+            {
+                "language": "C",
+                "experience": "2 years",
+                "description": "Used in university courses. In addition to basic syntax, I understand pointers and memory manipulation."
+            },
+            {
+                "language": "Java",
+                "experience": "2 months",
+                "description": "Used for learning OOP. In addition to basic syntax, I understand the static characteristics of the language. I also understand concepts such as relationships in OOP, polymorphism, and generics."
+            },
+            {
+                "language": "Javascript",
+                "experience": "4 months",
+                "description": "Used in personal projects. I can work with APIs and understand how to handle JSON data."
+            },
+            {
+                "language": "HTML/CSS",
+                "experience": "4 months",
+                "description": "Used in personal projects. I can create simple pages using Bootstrap."
+            },
+            {
+                "language": "MySQL",
+                "experience": "1 month",
+                "description": "Used for database learning. I understand basic operations of DDL and DDM, and I am familiar with aggregate functions, GROUP BY, HAVING clauses, and joins."
+            },
+            {
+                "language": "TypeScript",
+                "experience": "1 month",
+                "description": "Used in frontend development at an internship. React was the framework used."
+            }
+        ]
+    }
+}

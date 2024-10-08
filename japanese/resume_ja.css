@@ -88,4 +88,9 @@ a#pdf:hover { background: #222; }
 .yui-gf .yui-u{width:80.3%;}
 .yui-gf div.first{width:12.3%;}
 
-
+@media print {
+    @page {
+        size: A4;
+        margin: 20mm;
+    }
+}

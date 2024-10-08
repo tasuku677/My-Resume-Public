@@ -49,12 +49,8 @@
                 "company": "Alps Electronic Czech s.r.o",
                 "duration": "June 24, 2024 – September 20, 2024",
                 "description": [
-                    "Project1: Product Error Report Application <br> Developed a web application using the Vue framework for registering and displaying defects in factory products. This application can be used as a Grafana plugin and displays defects as a heatmap. The frameworks used were Konva.js and Heatmap.js.",
-                    "Project2: Application for Verifying Shipping Pallet Conditions. Developed an application that records and stores photos to verify the condition of shipped products. By utilizing IndexedDB, the application functions offline, handling unstable network conditions in factories. The frontend was built with Vue, the backend with FastAPI, and the database with Microsoft SQL.",
-                    {
-                        "Project1": "https://github.com/tasuku677/alps-intern-heatmap",
-                        "Project2": "https://github.com/tasuku677/alps-intern-heatmap"
-                    }
+                    "<strong>Project1: Product Error Report Application</strong> <br> Developed a web application using the Vue framework for registering and displaying defects in factory products. This application can be used as a Grafana plugin and displays defects as a heatmap. The frameworks used were Konva.js and Heatmap.js.<br><a href='https://github.com/tasuku677/alps-intern-heatmap'>https://github.com/tasuku677/alps-intern-heatmap</a>",
+                    "<strong>Project2: Application for Verifying Shipping Pallet Conditions</strong> Developed an application that records and stores photos to verify the condition of shipped products. By utilizing IndexedDB, the application functions offline, handling unstable network conditions in factories. The frontend was built with Vue, the backend with FastAPI, and the database with Microsoft SQL.<br><a href='https://github.com/tasuku677/alps-intern-shipping-pallet-backend'>https://github.com/tasuku677/alps-intern-shipping-pallet-backend</a>"
                 ]
             }
         ]

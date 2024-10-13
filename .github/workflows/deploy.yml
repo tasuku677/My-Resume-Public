@@ -16,6 +16,25 @@ jobs:
     - name: Install SSH client
       run: sudo apt-get install -y openssh-client
 
+    # AWS CLIをインストールするためのステップ
+    - name: Install AWS CLI
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y awscli
+
+    # ジョブの開始時にGitHub ActionsのIPアドレスをEC2セキュリティグループに追加
+    - name: Allow GitHub Actions IP
+      run: |
+        GITHUB_ACTIONS_IP=$(curl https://api.github.com/meta | jq -r '.actions[0]')
+        aws ec2 authorize-security-group-ingress \
+          --group-id ${{ secrets.SECURITY_GROUP_ID }} \
+          --protocol tcp --port 22 --cidr $GITHUB_ACTIONS_IP
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: ${{ secrets.AWS_REGION }}
+
+    # EC2インスタンスにファイルを転送するステップ
     - name: Copy files to EC2
       uses: appleboy/scp-action@v0.1.1
       with:
@@ -25,8 +44,23 @@ jobs:
         source: "./*"  # コピーするファイル
         target: "/home/ubuntu/web/myresume-website"  # EC2上のウェブサーバーのドキュメントルート
 
+    # ウェブサーバー(Nginx)を再起動するステップ
     - name: Restart web server
       run: |
         echo "${{ secrets.EC2_PRIVATE_KEY }}" > key.pem  # 秘密鍵をファイルに保存
         chmod 400 key.pem  # 適切な権限を設定
-        ssh -o StrictHostKeyChecking=no -i key.pem ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} "sudo systemctl restart nginx"  # Nginxを再起動
+        ssh -o StrictHostKeyChecking=no -i key.pem ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} "sudo systemctl restart nginx"
+
+    # ジョブの完了時にGitHub ActionsのIPアドレスをセキュリティグループから削除
+    - name: Remove GitHub Actions IP
+      if: always()
+      run: |
+        GITHUB_ACTIONS_IP=$(curl https://api.github.com/meta | jq -r '.actions[0]')
+        aws ec2 revoke-security-group-ingress \
+          --group-id ${{ secrets.SECURITY_GROUP_ID }} \
+          --protocol tcp --port 22 --cidr $GITHUB_ACTIONS_IP
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: ${{ secrets.AWS_REGION }}
+

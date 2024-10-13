@@ -20,10 +20,10 @@ jobs:
       uses: appleboy/scp-action@v0.1.1
       with:
         host: ${{ secrets.EC2_HOST }}  # EC2のホスト名（IPアドレスやDNS）
-        username: ${{ secrets.EC2_USER }}  # EC2のユーザー名（通常はec2-user）
+        username: ${{ vars.EC2_USER }}  # EC2のユーザー名（通常はec2-user）
         key: ${{ secrets.EC2_PRIVATE_KEY }}  # シークレットに設定した秘密鍵
         source: "./*"  # コピーするファイル
-        target: "/var/www/html/"  # EC2上のウェブサーバーのドキュメントルート
+        target: "/home/ubuntu/web/myresume-website"  # EC2上のウェブサーバーのドキュメントルート
 
     - name: Restart web server
       run: |

@@ -17,14 +17,14 @@
                 "description": "Kotlinを使ったアプリケーションの開発を個人で行いました。フロントエンドを担当し、ツールキットのJetpack Composeを使用した「定義型」のGUI開発を経験しました。また、チームメンバーのほとんどが外国籍のグローバルな環境で開発経験を積むことができました。"
             },
             {
-                "company": "mappin株式会社",
-                "duration": "2024/4/1-2024/6/14",
-                "description": "クリニック向け在庫管理アプリのフロントエンド開発に取り組んでいます。開発にはTypeScriptとReactを用いました。"
-            },
-            {
                 "company": "ALPS ELECTRIC CZECH, s.r.o.",
                 "duration": "2024/6/24-2024/9/20",
                 "description": "プロジェクト1:<br>Product errror report application<br>Vueフレームワークを使用した，工場プロダクトの不良個所を登録，またその結果の表示を行うwebアプリケーションの開発．このアプリケーションはGrafanaプラグインとして，使用可能で，不良個所をヒートマップにして表示することができます．使用したフレームワークはkonva.js, heatmap.js.<br><br>プロジェクト2:<br>Application that prooves conditions of shipping pallets<br>出荷製品の良好状態を写真で記録し，保存するアプリケーション．このアプリケーションは，ウェブブラウザ内のデータベースであるindexedDBを用いることで，工場での安定しないネットワーク状況に対応し，オフラインでも機能する．フロントエンドには，vueフレームワーク，バックエンドにはfastapi,そしてデータベースにはMIcrosoft SQLを使用．"
+            },
+            {
+                "company": "株式会社マネーフォワード",
+                "duration": "2024/10/1-2024/10/15",
+                "description": "Ruby on Railsでの開発でした．会計ソフトの開発で，タイトルやページ内容の追加・変更，APIの作成に取り組みました．Rubyに触れるのは初めてでしたが，チュートリアルをもとにMVCアーキテクチャを学習し，実務に取り組みました．"
             }
         ],
         "en": [
@@ -51,6 +51,15 @@
                 "description": [
                     "<strong>Project1: Product Error Report Application</strong> <br> Developed a web application using the Vue framework for registering and displaying defects in factory products. This application can be used as a Grafana plugin and displays defects as a heatmap. The frameworks used were Konva.js and Heatmap.js.<br><a href='https://github.com/tasuku677/alps-intern-heatmap'>https://github.com/tasuku677/alps-intern-heatmap</a>",
                     "<strong>Project2: Application for Verifying Shipping Pallet Conditions</strong> Developed an application that records and stores photos to verify the condition of shipped products. By utilizing IndexedDB, the application functions offline, handling unstable network conditions in factories. The frontend was built with Vue, the backend with FastAPI, and the database with Microsoft SQL.<br><a href='https://github.com/tasuku677/alps-intern-shipping-pallet-backend'>https://github.com/tasuku677/alps-intern-shipping-pallet-backend</a>"
+                ]
+            },
+            {
+                "company": "Money Forward, Inc.",
+                "duration": "October 1, 2024 – October 15, 2024",
+                "description": [
+                    "Developed an accounting software using Ruby on Rails.",
+                    "Worked on adding and modifying titles and page content, and creating APIs.",
+                    "Learned MVC architecture through tutorials and applied it to practical development."
                 ]
             }
         ]

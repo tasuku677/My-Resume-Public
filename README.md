@@ -2,7 +2,9 @@
 ## 概要
 私の成果物一覧です。
 ## URL
-https://myresume-ja.tasuku677.com/
+Japanese: https://myresume-ja.tasuku677.com/
+
+English: https://myresume-en.tasuku677.com/
 
 参考にしたHTML/CSSテンプレート：https://superdevresources.com/html-resume-templates/
 ## 作成の経緯・目的

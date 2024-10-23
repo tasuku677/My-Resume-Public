@@ -33,8 +33,7 @@
                 "duration": "September 19, 2023 – September 23, 2023",
                 "description": [
                     "Developed a prototype of the application aimed at solving food waste using Python, Flask framework, and SQLAlchemy.",
-                    "Worked on backend and created a database, implemented operations, and integrated login functionality.",
-                    "Gained practical experience in team development methodologies through periodical brainstorming."
+                    "Worked on backend and created a database, implemented operations, and integrated login functionality."
                 ]
             },
             {
@@ -50,7 +49,7 @@
                 "duration": "June 24, 2024 – September 20, 2024",
                 "description": [
                     "<strong>Project1: Product Error Report Application</strong> <br> Developed a web application using the Vue framework for registering and displaying defects in factory products. This application can be used as a Grafana plugin and displays defects as a heatmap. The frameworks used were Konva.js and Heatmap.js.<br><a href='https://github.com/tasuku677/alps-intern-heatmap'>https://github.com/tasuku677/alps-intern-heatmap</a>",
-                    "<strong>Project2: Application for Verifying Shipping Pallet Conditions</strong> Developed an application that records and stores photos to verify the condition of shipped products. By utilizing IndexedDB, the application functions offline, handling unstable network conditions in factories. The frontend was built with Vue, the backend with FastAPI, and the database with Microsoft SQL.<br><a href='https://github.com/tasuku677/alps-intern-shipping-pallet-backend'>https://github.com/tasuku677/alps-intern-shipping-pallet-backend</a>"
+                    "<strong>Project2: Application for Verifying Shipping Pallet Conditions</strong> <br> Developed an application that records and stores photos to verify the condition of shipped products. By utilizing IndexedDB, the application functions offline, handling unstable network conditions in factories. The frontend was built with Vue, the backend with FastAPI, and the database with Microsoft SQL.<br><a href='https://github.com/tasuku677/alps-intern-shipping-pallet-backend'>https://github.com/tasuku677/alps-intern-shipping-pallet-backend</a>"
                 ]
             },
             {

@@ -19,7 +19,7 @@
             {
                 "company": "ALPS ELECTRIC CZECH, s.r.o.",
                 "duration": "2024/6/24-2024/9/20",
-                "description": "プロジェクト1:<br>Product errror report application<br>Vueフレームワークを使用した，工場プロダクトの不良個所を登録，またその結果の表示を行うwebアプリケーションの開発．このアプリケーションはGrafanaプラグインとして，使用可能で，不良個所をヒートマップにして表示することができます．使用したフレームワークはkonva.js, heatmap.js.<br><br>プロジェクト2:<br>Application that prooves conditions of shipping pallets<br>出荷製品の良好状態を写真で記録し，保存するアプリケーション．このアプリケーションは，ウェブブラウザ内のデータベースであるindexedDBを用いることで，工場での安定しないネットワーク状況に対応し，オフラインでも機能する．フロントエンドには，vueフレームワーク，バックエンドにはfastapi,そしてデータベースにはMIcrosoft SQLを使用しました．"
+                "description": "プロジェクト1:<br>Product errror report application<br>Vueフレームワークを使用した，工場プロダクトの不良個所を登録，またその結果の表示を行うwebアプリケーションの開発．このアプリケーションはGrafanaプラグインとして，使用可能で，不良個所をヒートマップにして表示することができます．使用したフレームワークはkonva.js, heatmap.js.<br><br>URL: https://github.com/tasuku677/alps-intern-heatmap<br><br>プロジェクト2:<br>Application that prooves conditions of shipping pallets<br>出荷製品の良好状態を写真で記録し，保存するアプリケーション．このアプリケーションは，ウェブブラウザ内のデータベースであるindexedDBを用いることで，工場での安定しないネットワーク状況に対応し，オフラインでも機能する．フロントエンドには，vueフレームワーク，バックエンドにはfastapi,そしてデータベースにはMIcrosoft SQLを使用しました．<br><br>URL: https://github.com/tasuku677/alps-intern-shipping-pallet-backend"
             },
             {
                 "company": "株式会社マネーフォワード",

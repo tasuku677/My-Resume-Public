@@ -26,6 +26,12 @@
                 "description": "クライアントサーバ型のアプリケーションの一つで、オンラインでメッセージを送れるチャットメッセンジャーです。オペレーティングシステムのソケット API を使用してアプリケーションがどのようにデータを送信するかを学習するために作成しました。"
             },
             {
+                "title": "Video Compressor",
+                "technology": "Python",
+                "url": "https://github.com/tasuku677/Video-Compressor",
+                "description": "クライアントサーバ型のアプリケーションの一つで、動画圧縮サービスを作成しました。動画圧縮やアスペクト比変更などができます。"
+            },
+            {
                 "title": "LRUキャッシュ",
                 "technology": "Java",
                 "url": "https://github.com/tasuku677/LRUcache",
